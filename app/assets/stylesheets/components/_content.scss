@@ -1,0 +1,50 @@
+ .content-container {
+  margin: 0 auto;
+  text-align: center;
+  height: 250px;
+  overflow: scroll;
+  position: relative;
+}
+
+.arrow {
+  color: $brand-color;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.intro-animation {
+  animation: pullUp 1s ease;
+}
+
+.contact {
+  display: flex;
+  margin: 0 auto;
+  input {
+    margin: 10px;
+  }
+}
+
+.contact-info {
+  padding-right: 10px;
+  input {
+    max-width: 200px;
+  }
+}
+
+.contact-message {
+  margin: 0 10px;
+}
+
+.message-field {
+  max-width: 300px;
+  height: 150px;
+}
+
+.link-content {
+  padding: 30px;
+  text-align: left;
+}
+
+.brand-button {
+  margin-left: 0px !important;
+}

@@ -1,0 +1,16 @@
+.banner {
+ background-image: image-url('banner.jpg');
+ display: flex;
+ height: 200px;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ background-position: center;
+}
+
+.intro-content {
+  margin: 0 auto;
+  width: 300px;
+  border-bottom: 2px solid black;
+  text-align: center;
+}

@@ -1012,23 +1012,8 @@ stretchLeft
   0% {
     transform: scaleX(0.3);
   }
-  40% {
-    transform: scaleX(1.02);
-  }
-  60% {
-    transform: scaleX(0.98);
-  }
-  80% {
-    transform: scaleX(1.01);
-  }
   100% {
-    transform: scaleX(0.98);
-  }
-  80% {
-    transform: scaleX(1.01);
-  }
-  100% {
-    transform: scaleX(1);
+    transform: scaleX(1.00);
   }
 }
 
@@ -1036,23 +1021,8 @@ stretchLeft
   0% {
     -webkit-transform: scaleX(0.3);
   }
-  40% {
-    -webkit-transform: scaleX(1.02);
-  }
-  60% {
-    -webkit-transform: scaleX(0.98);
-  }
-  80% {
-    -webkit-transform: scaleX(1.01);
-  }
   100% {
-    -webkit-transform: scaleX(0.98);
-  }
-  80% {
-    -webkit-transform: scaleX(1.01);
-  }
-  100% {
-    -webkit-transform: scaleX(1);
+    -webkit-transform: scaleX(1.00);
   }
 }
 

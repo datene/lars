@@ -1,0 +1,17 @@
+<div class="homepage-hero-module">
+    <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth">
+            <source src="<%= video_path 'fish-tank.mp4' %>" type="video/mp4" />
+                Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="<%= video_path 'fish-tank.webm' %>" type="video/webm" />
+                Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+            <%= image_tag 'fish-tank.jpg' %>
+        </div>
+    </div>
+</div>
+<div class="intro-content">
+  <h1>Lars' portfolio</h1>
+</div>

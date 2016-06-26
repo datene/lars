@@ -1,0 +1,37 @@
+<div class="mail-body" style="
+font-family: verdana;
+margin: 0 auto;
+width: 500px;
+text-align: center;
+">
+<div class="mail-header" style="border-bottom:1px solid black;">
+  <h1>Hello Lars!</h1>
+  <p>Here's an e-mail from <a href="http://datene.nl" style="color:#b82128;text-decoration:none;">datene.nl</a> </p>
+</div>
+<table style="margin: 0 auto;">
+  <tr>
+    <th>
+      Sender name:
+    </th>
+    <th>
+      Sender e-mail:
+    </th>
+  </tr>
+  <tr>
+    <td>
+      <%= @sender_name %>
+    </td>
+    <td>
+      <%= @sender_mail %>
+    </td>
+  </tr>
+</table>
+
+<h2>Subject: <span style="color:#b82128;"> <%= @subject %></span></h2>
+<em><%= @message %></em>
+</div>
+<p style="    
+margin: 20px auto;
+width: 200px;
+text-align: center;
+">Groetjes!</p>

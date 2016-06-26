@@ -1,0 +1,24 @@
+<div class="content-container">
+  <div class="link-content" id="about">
+    <%= render 'about' %>
+  </div>
+  <div class="link-content hidden" id="info">
+    <%= render 'info' %>
+  </div>
+  <div class="link-content hidden" id="contact">
+    <div class="contact">
+      <%= simple_form_for :contact, url: contact_path, class:"form-group" do |f| %>
+      <div class="contact-info">
+        <%= f.input :name, input_html: { class: "form-control" } %>
+        <%= f.input :email, input_html: { class: "form-control" } %>
+      </div>
+      <div class="contact-message">
+        <%= f.input :subject, input_html: { class: "form-control" } %>
+        <%= f.label :message %>
+        <%= f.text_area :message, class: "form-control message-field"  %>
+        <%= f.button :submit, value: "Send!", class: "btn btn-primary brand-button" %>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>
